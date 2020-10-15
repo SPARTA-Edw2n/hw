@@ -12,3 +12,4 @@ for movie in selected_movies:
     print(movie['title'])
 
 db.movies.update_many({'star':target_star},{'$set':{'star':0}})
+print('수정')
